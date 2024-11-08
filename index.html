@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Arapey:ital@0;1&family=Faculty+Glyphic&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <title> Thirst Trap </title>
+</head>
+
+<body>
+
+  <div class = "header">
+    <h1> THIRST TRAP </h1>
+    <h2> Thirsty but broke? Hunt for your happy hour here. </h2>
+  </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="barLocation(event, 'Show All')"> All </button>
+        <button class="tablinks" onclick="barLocation(event, 'North')"> North </button>
+        <button class="tablinks" onclick="barLocation(event, 'South')"> South </button>
+        <button class="tablinks" onclick="barLocation(event, 'East')"> East </button>
+        <button class="tablinks" onclick="barLocation(event, 'West')"> West </button>
+        <button class="tablinks" onclick="barLocation(event, 'Central')"> Central </button>
+      </div>
+
+      <!-- Tab content -->
+
+      <div class ='parent'>
+      <div id="Show All" class="tabcontent">
+        <!-- Child 1 -->
+      <div class ='child'> 
+      <h3> Lazy Lizard Sixth Avenue </h3> 
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 3pm-8pm daily </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Beer </td>
+            </tr>
+            <tr>
+                <td> <strong> Price Range: </strong></td>
+                <td> $11-13++ </td>
+              </tr>
+              <tr>
+                <td> <strong> Nearest MRT: </strong> </td>
+                <td> <a href="https://www.google.com/maps/place/Lazy+Lizard+-+Sixth+Avenue/@1.3312023,103.7951531,17z/data=!3m2!4b1!5s0x31da109ed0c5bae9:0xa72012536b1e2de0!4m6!3m5!1s0x31da109ed6990cc1:0x3e3fb7d25ec9fff5!8m2!3d1.3312023!4d103.7951531!16s%2Fg%2F1txflnr3?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Sixth Avenue </a> </td>
+              </tr>
+          </table>
+        </div>
+
+      <div class = child>
+          <h3> Chico Loco </h3>
+         <table>
+             <tr>
+               <td> <strong> Happy Hours: </strong> </td>
+               <td> Mon-Thurs, 12pm-7pm </td>
+             </tr>
+             <tr>
+               <td> <strong> Drinks: </strong> </td>
+               <td> Beer, Wine, Margaritas </td>
+             </tr>
+             <tr>
+                 <td> <strong> Price Range: </strong></td>
+                 <td> $11-13++ </td>
+               </tr>
+               <tr>
+                 <td> <strong> Nearest MRT: </strong>  </td>
+                 <td> <a href = "https://www.google.com/maps/place/Chico+Loco+(Amoy+Street)/@1.2816556,103.8447769,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19085b6a6645:0xcd1cc3401842e86f!8m2!3d1.2816502!4d103.8473518!16s%2Fg%2F11fl095s72?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target = "_blank"> Telok Ayer </a> </td>
+               </tr>
+           </table>
+          </div>
+
+      <div class = child>
+      <h3> Offtrack </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 5pm-7pm daily </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Cocktails, wines, beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $12-16++ </td>
+              </tr>
+              <tr>
+                <td><strong>Nearest MRT:</strong> </td>
+                <td><a href="https://www.google.com/maps/place/Offtrack/@1.2925311,103.8359716,15z/data=!3m1!5s0x31da190afc33dc93:0x82c4b8b1f97d67d3!4m6!3m5!1s0x31da19963cdecdf7:0x1f01bc4d6a92b7df!8m2!3d1.2869115!4d103.847206!16s%2Fg%2F11smcq6j4s?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Clarke Quay </a> </td>
+              </tr>
+          </table>
+        </div>
+
+        <div class = child>
+        <h3> Southbridge </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 5pm-8pm on Mon-Thurs, all day on Sun </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Spirits, wines, beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10-20++ </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT:</strong> </td>
+                <td><a href="https://www.google.com/maps/place/Southbridge/@1.2884579,103.8466922,17z/data=!3m1!4b1!4m6!3m5!1s0x31da190a12e845cb:0x53225213f4c2325e!8m2!3d1.2884525!4d103.8492671!16s%2Fg%2F11b6dnrqqp?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Clarke Quay </a> </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class = child> 
+        <h3> Bones 'n Barrels </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 11.30am-8pm on Mon-Fri </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Spirits, wines, beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $15++ (1 for 1) </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.com/maps/place/Bones+'n+Barrels+Alexandra/@1.2773615,103.7971874,17z/data=!3m2!4b1!5s0x31da1bc7110d8683:0x648a87e0bf359e79!4m6!3m5!1s0x31da1b04cbee1811:0x65f904aa447c3984!8m2!3d1.2773561!4d103.7997623!16s%2Fg%2F11fj2pz2v1?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Pasir Panjang/ Labrador Park </a> </td>
+              </tr>
+          </table>
+          </div>
+
+          <div class = child>
+          <h3> Wildseed Bar </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 5pm-8pm on Mon-Thurs </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Spirits, cocktails, beers (depending on the day) </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10-$12++ </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.com/maps/place/Wildseed+Caf%C3%A9+at+The+Summerhouse/@1.3955396,103.8429684,14z/data=!4m6!3m5!1s0x31da15d32bc77b95:0x85c38a46286afa0d!8m2!3d1.4079885!4d103.8683067!16s%2Fg%2F11c30tf310?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Lentor (Advisable to take a bus) </a> </td>
+              </tr>
+          </table>
+        </div>
+
+        <div class = child>
+          <h3> Almost Famous </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 5pm-7pm on Mon-Fri, 12pm-7pm on Sat-Sun </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10 </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.com/maps/place/Almost+Famous+Craft+Beer+Bar/@1.2953787,103.849659,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19aacc509d89:0xe303c7813fcfe3f2!8m2!3d1.2953733!4d103.8522339!16s%2Fg%2F11gxrv_5jc?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> City Hall </a> </td>
+              </tr>
+          </table>
+        </div>
+
+        <div class = child>
+          <h3> Malthouse </h3>
+           <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> Until 8pm daily </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10-$17 </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.co.uk/maps/place/Malthouse/@1.3118323,103.9032047,15z/data=!3m2!4b1!5s0x31da22a38c9a7e9f:0x193f2cab4bbd1f58!4m6!3m5!1s0x31da22a38b4d664b:0x23f1bb6f2fff2e82!8m2!3d1.3118109!4d103.9216588!16s%2Fg%2F11b6htswl3?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Marine Terrace </a> </td>
+              </tr>
+          </table>
+        </div>
+
+        </div>
+      </div>
+      
+<!-- North -->
+      <div id="North" class="tabcontent">
+        <div class = child>
+          <h3> Wildseed Bar </h3>
+        <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> 5pm-8pm on Mon-Thurs </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Spirits, cocktails, beers (depending on the day) </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10-$12++ </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.com/maps/place/Wildseed+Caf%C3%A9+at+The+Summerhouse/@1.3955396,103.8429684,14z/data=!4m6!3m5!1s0x31da15d32bc77b95:0x85c38a46286afa0d!8m2!3d1.4079885!4d103.8683067!16s%2Fg%2F11c30tf310?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Lentor (Advisable to take a bus) </a> </td>
+              </tr>
+          </table>
+        </div>
+      </div>
+      
+      <div id="South" class="tabcontent">
+        <div class = child> 
+          <h3> Bones 'n Barrels </h3>
+          <table>
+              <tr>
+                <td> <strong> Happy Hours: </strong> </td>
+                <td> 11.30am-8pm on Mon-Fri </td>
+              </tr>
+              <tr>
+                <td> <strong> Drinks: </strong> </td>
+                <td> Spirits, wines, beers </td>
+              </tr>
+              <tr>
+                  <td><strong> Price Range: </strong> </td>
+                  <td> $15++ (1 for 1) </td>
+                </tr>
+                <tr>
+                  <td><strong> Nearest MRT: </strong> </td>
+                  <td><a href="https://www.google.com/maps/place/Bones+'n+Barrels+Alexandra/@1.2773615,103.7971874,17z/data=!3m2!4b1!5s0x31da1bc7110d8683:0x648a87e0bf359e79!4m6!3m5!1s0x31da1b04cbee1811:0x65f904aa447c3984!8m2!3d1.2773561!4d103.7997623!16s%2Fg%2F11fj2pz2v1?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Pasir Panjang/ Labrador Park </a> </td>
+                </tr>
+            </table>
+            </div>
+      </div>
+      
+      <div id="East" class="tabcontent">
+        <div class = child>
+          <h3> Malthouse </h3>
+           <table>
+            <tr>
+              <td> <strong> Happy Hours: </strong> </td>
+              <td> Until 8pm daily </td>
+            </tr>
+            <tr>
+              <td> <strong> Drinks: </strong> </td>
+              <td> Beers </td>
+            </tr>
+            <tr>
+                <td><strong> Price Range: </strong> </td>
+                <td> $10-$17 </td>
+              </tr>
+              <tr>
+                <td><strong> Nearest MRT: </strong> </td>
+                <td><a href="https://www.google.co.uk/maps/place/Malthouse/@1.3118323,103.9032047,15z/data=!3m2!4b1!5s0x31da22a38c9a7e9f:0x193f2cab4bbd1f58!4m6!3m5!1s0x31da22a38b4d664b:0x23f1bb6f2fff2e82!8m2!3d1.3118109!4d103.9216588!16s%2Fg%2F11b6htswl3?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Marine Terrace </a> </td>
+              </tr>
+          </table>
+        </div>
+      </div>
+
+      <div id="West" class="tabcontent">
+        <div class ='child'> 
+          <h3> Lazy Lizard Sixth Avenue </h3> 
+            <table>
+                <tr>
+                  <td> <strong> Happy Hours: </strong> </td>
+                  <td> 3pm-8pm daily </td>
+                </tr>
+                <tr>
+                  <td> <strong> Drinks: </strong> </td>
+                  <td> Beer </td>
+                </tr>
+                <tr>
+                    <td> <strong> Price Range: </strong></td>
+                    <td> $11-13++ </td>
+                  </tr>
+                  <tr>
+                    <td> <strong> Nearest MRT: </strong> </td>
+                    <td> <a href="https://www.google.com/maps/place/Lazy+Lizard+-+Sixth+Avenue/@1.3312023,103.7951531,17z/data=!3m2!4b1!5s0x31da109ed0c5bae9:0xa72012536b1e2de0!4m6!3m5!1s0x31da109ed6990cc1:0x3e3fb7d25ec9fff5!8m2!3d1.3312023!4d103.7951531!16s%2Fg%2F1txflnr3?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Sixth Avenue </a> </td>
+                  </tr>
+              </table>
+            </div>
+      </div>
+
+      <div id="Central" class="tabcontent">
+        <div class = child>
+          <h3> Chico Loco </h3>
+         <table>
+             <tr>
+               <td> <strong> Happy Hours: </strong> </td>
+               <td> Mon-Thurs, 12pm-7pm </td>
+             </tr>
+             <tr>
+               <td> <strong> Drinks: </strong> </td>
+               <td> Beer, Wine, Margaritas </td>
+             </tr>
+             <tr>
+                 <td> <strong> Price Range: </strong></td>
+                 <td> $11-13++ </td>
+               </tr>
+               <tr>
+                 <td> <strong> Nearest MRT: </strong>  </td>
+                 <td> <a href = "https://www.google.com/maps/place/Chico+Loco+(Amoy+Street)/@1.2816556,103.8447769,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19085b6a6645:0xcd1cc3401842e86f!8m2!3d1.2816502!4d103.8473518!16s%2Fg%2F11fl095s72?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target = "_blank"> Telok Ayer </a> </td>
+               </tr>
+           </table>
+          </div>
+
+          <div class = child>
+            <h3> Offtrack </h3>
+              <table>
+                  <tr>
+                    <td> <strong> Happy Hours: </strong> </td>
+                    <td> 5pm-7pm daily </td>
+                  </tr>
+                  <tr>
+                    <td> <strong> Drinks: </strong> </td>
+                    <td> Cocktails, wines, beers </td>
+                  </tr>
+                  <tr>
+                      <td><strong> Price Range: </strong> </td>
+                      <td> $12-16++ </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Nearest MRT:</strong> </td>
+                      <td><a href="https://www.google.com/maps/place/Offtrack/@1.2925311,103.8359716,15z/data=!3m1!5s0x31da190afc33dc93:0x82c4b8b1f97d67d3!4m6!3m5!1s0x31da19963cdecdf7:0x1f01bc4d6a92b7df!8m2!3d1.2869115!4d103.847206!16s%2Fg%2F11smcq6j4s?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Clarke Quay </a> </td>
+                    </tr>
+                </table>
+              </div>
+      
+              <div class = child>
+              <h3> Southbridge </h3>
+              <table>
+                  <tr>
+                    <td> <strong> Happy Hours: </strong> </td>
+                    <td> 5pm-8pm on Mon-Thurs, all day on Sun </td>
+                  </tr>
+                  <tr>
+                    <td> <strong> Drinks: </strong> </td>
+                    <td> Spirits, wines, beers </td>
+                  </tr>
+                  <tr>
+                      <td><strong> Price Range: </strong> </td>
+                      <td> $10-20++ </td>
+                    </tr>
+                    <tr>
+                      <td><strong> Nearest MRT:</strong> </td>
+                      <td><a href="https://www.google.com/maps/place/Southbridge/@1.2884579,103.8466922,17z/data=!3m1!4b1!4m6!3m5!1s0x31da190a12e845cb:0x53225213f4c2325e!8m2!3d1.2884525!4d103.8492671!16s%2Fg%2F11b6dnrqqp?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target ="_blank"> Clarke Quay </a> </td>
+                    </tr>
+                  </table>
+                </div>
+      </div>
+</body>
+</html>
